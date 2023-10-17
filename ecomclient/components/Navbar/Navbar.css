@@ -50,3 +50,23 @@ gap: 10px;
     height: 30px;
     background-color: white;
 }
+
+.cart-icon button:hover{
+    cursor: pointer;
+}
+.nav-cart-count
+{
+width: 15px;
+height: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -30px;
+margin-left: -35px;
+margin-bottom: 15px;
+color: whitesmoke;
+background: red;
+border-radius: 7px;
+font-size: 10px;
+
+}

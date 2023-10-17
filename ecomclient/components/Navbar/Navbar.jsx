@@ -12,13 +12,16 @@ const Navbar = () => {
     </div>
     <ul className="nevbarmenu">
         <li>home</li>
-        <li>home</li>
-        <li>home</li>
-        <li>home</li>
+        <li>catagory</li>
+        <li>Men</li>
+        <li>Women</li>
     </ul>
     <div className="cart-icon">
         <button>Login</button>
         <img src={cart} alt="cart icon" />
+        <div className="nav-cart-count">
+            0
+        </div>
     </div>
 </div>    
 
