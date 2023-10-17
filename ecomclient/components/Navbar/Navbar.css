@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+box-shadow: 0 1px 3px -2px black;
+
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* .navlogo img{
+size-adjust: 25px;
+gap: 10px;
+} */
+.navlogo{
+    color: #171717;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* nevbarmenu */
+
+.nevbarmenu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+    color: #626262;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.cart-icon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.cart-icon button{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
